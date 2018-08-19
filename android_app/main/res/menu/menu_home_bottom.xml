@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/list_routines"
+        android:icon="@drawable/ic_note_small"
+        android:title="@string/routine_list_item_title" />
+    <item
+        android:id="@+id/share_routines"
+        android:icon="@drawable/ic_explore_small"
+        android:title="@string/routine_share_item_title" />
+    <item
+        android:iconTint="@color/white"
+        android:id="@+id/add_routine"
+        android:title=""/>
+    <item
+        android:id="@+id/mine"
+        android:icon="@drawable/ic_mine_small"
+        android:title="@string/ore_mine_item_title" />
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account_small" android:title="@string/user_account_item_title" />
+
+</menu>

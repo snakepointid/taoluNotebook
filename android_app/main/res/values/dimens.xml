@@ -1,0 +1,36 @@
+<resources>
+    <dimen name="option_cell_high">60dp</dimen>
+    <dimen name="option_layout_high">180dp</dimen>
+    <dimen name="policy_feedback_box">40dp</dimen>
+
+    <dimen name="option_enter_size">30dp</dimen>
+    <dimen name="target_agent_show">30dp</dimen>
+    <dimen name="policy_feedback_margin">8dp</dimen>
+    <dimen name="option_enter_margin">4dp</dimen>
+    <dimen name="option_click_margin">10dp</dimen>
+    <dimen name="routine_list_left_margin">10dp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="sep_line_margin">20dp</dimen>
+    <dimen name="list_pad_margin">10dp</dimen>
+    <dimen name="text_margin">20dp</dimen>
+    <dimen name="toolbar_height">40dp</dimen>
+    <dimen name="icon_size">20dp</dimen>
+    <dimen name="big_margin">100dp</dimen>
+
+    <dimen name="policy_feedback_text_max_size">9sp</dimen>
+    <dimen name="policy_feedback_text_min_size">5sp</dimen>
+    <dimen name="option_text_size">15dp</dimen>
+    <dimen name="search_text_size">12sp</dimen>
+    <dimen name="routine_process_text_size">14sp</dimen>
+    <dimen name="routine_process_title_text_size">16sp</dimen>
+    <dimen name="line_space_extra">5sp</dimen>
+    <dimen name="filter_dialog_text_size">25sp</dimen>
+
+    <dimen name="exploration_title_size">20sp</dimen>
+    <dimen name="exploration_process_size">15sp</dimen>
+    <dimen name="exploration_number_size">8sp</dimen>
+
+
+
+
+</resources>

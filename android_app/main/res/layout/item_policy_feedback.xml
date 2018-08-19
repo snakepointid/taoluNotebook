@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/policy_feedback_box"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bt_policyOrFeedback"
+        android:background="@drawable/rect_dialog"
+        android:layout_margin="@dimen/policy_feedback_margin"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoSizeMaxTextSize="@dimen/policy_feedback_text_max_size"
+        app:autoSizeMinTextSize="@dimen/policy_feedback_text_min_size"
+        app:autoSizeTextType="uniform" />
+</LinearLayout>

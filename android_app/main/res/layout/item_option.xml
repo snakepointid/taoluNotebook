@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/option_cell_high">
+    <TextView
+        android:id="@+id/tv_option"
+        android:textSize="@dimen/option_text_size"
+        android:layout_margin="@dimen/option_click_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"  />
+</LinearLayout>

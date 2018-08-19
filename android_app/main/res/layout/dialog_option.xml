@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_pad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rect_dialog"
+    android:layout_marginHorizontal="@dimen/policy_feedback_margin"
+    android:orientation="vertical">
+    <GridView
+        android:id="@+id/gv_options_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/option_layout_high"
+        android:numColumns="3" />
+    <View
+        android:layout_height="3px"
+        android:layout_width="match_parent"
+        android:alpha="0.5"
+        android:background="#999999"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/option_enter_size"
+        android:layout_margin="@dimen/option_enter_margin"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <EditText
+            android:id="@+id/et_option"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/gray"
+            android:background="@drawable/rect_dialog"
+            android:textColorHint="#888888"
+            android:layout_weight="2"
+            android:maxLength="5"
+            android:lines="1" />
+        <TextView
+            android:id="@+id/tv_inputType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/gray"
+            android:layout_weight="8"
+            android:background="@drawable/rect_dialog"
+            android:gravity="center"
+            android:textColor="@color/green_primary"
+            android:clickable="true"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

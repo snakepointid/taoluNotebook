@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_token_pad"
+    tools:context=".activity.RoutineActivity"
+    tools:showIn="@layout/activity_routine"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar_menu_only"/>
+    <include layout="@layout/subfragment_routine_title"/>
+    <include layout="@layout/segment_line"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.lue.taolu.base.MyGridView
+                android:id="@+id/gv_routine_pad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="5"
+                android:layout_marginBottom="@dimen/fab_margin"/>
+            <TextView
+                android:id="@+id/tv_process_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/routine_process_title_text_size"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:alpha="0.7"/>
+            <TextView
+                android:id="@+id/tv_time_brief"
+                android:textColor="@color/gray"
+                android:textSize="10dp"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:alpha="0.6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/et_process"
+                android:background="@color/transparent"
+                android:focusable="false"
+                android:lineSpacingExtra="@dimen/line_space_extra"
+                android:textSize="@dimen/routine_process_text_size"
+                android:layout_marginHorizontal="@dimen/fab_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/big_margin"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
